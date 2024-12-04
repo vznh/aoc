@@ -5,8 +5,8 @@ def pull_data_from_file() -> List[List[int]]:
   l = []
   with open('in.txt', 'r') as file:
     for line in file:
-        numbers = list(map(int, line.split()))
-        l.append(numbers)
+      numbers = list(map(int, line.split()))
+      l.append(numbers)
 
   return l
 
