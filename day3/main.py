@@ -1,5 +1,4 @@
 import re
-from operator import not_
 # .start day3/main.py
 
 def pull_data_from_file() -> str:
